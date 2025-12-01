@@ -1,0 +1,5 @@
+{
+  "name": "Copy of Generador PDF Horarios Renfe Gipuzkoa",
+  "description": "Herramienta para procesar datos GTFS y JSON de Renfe Cercanías Gipuzkoa y generar horarios en PDF formato A4 Horizontal.",
+  "requestFramePermissions": []
+}

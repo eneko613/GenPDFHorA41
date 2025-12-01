@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilos globales extra si fueran necesarios */
+body {
+    background-color: #f8fafc; /* slate-50 */
+}

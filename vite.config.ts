@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: './', // CRÍTICO: Rutas relativas para que funcione en cualquier subdominio
+  base: './', // IMPORTANTE: Esto hace que la web funcione en cualquier ruta (ej. usuario.github.io/repo)
   build: {
     outDir: 'dist',
     assetsDir: 'assets',

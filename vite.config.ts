@@ -4,5 +4,10 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: './', // CRÍTICO: Esto hace que funcione en GitHub Pages independientemente del nombre del repo
+  base: './', // CRÍTICO: Rutas relativas para que funcione en cualquier subdominio
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets',
+    sourcemap: false
+  }
 })
